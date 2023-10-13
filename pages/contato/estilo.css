@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #e7dfd8;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Advent Pro', sans-serif;
+    color: #231f20;
+    font-size: 20px
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    padding-top: 30px;
+    border-top: 3.5px solid #231f20;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo-principal {}
+
+.conteudo-principal-esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+  
+.conteudo-principal-escrito-titulo {
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #231f20;
+}
+  
+  .conteudo-principal-escrito-subtitulo {
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 350;
+    font-size: 20px;
+    color: #231f20;
+  }
+
+.conteudo-principal-imagem {
+    height: 330px;
+  }
+
+.conteudo-secundario-imagem {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+  }
+
+  .conteudo-secundario-imagem-logo{
+    height: 45px;
+    width: 45px;
+  }
+  .rodape{
+    margin-bottom: 48px;
+    padding-top: 30px;
+    border-top: 3.5px solid #231f20;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
