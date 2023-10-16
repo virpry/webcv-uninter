@@ -1,12 +1,16 @@
+/* Gabriella de Oliveira Nogueira RU: 4393594  */
+/* link para fonte retirada do Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital@1&display=swap');
 
-* {
+/* Retirada de padrões do CSS */
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
+/* Padronização do cabeçalho em todas as páginas */
 body {
     font-size: 100%;
     background-color: #e7dfd8;
@@ -31,8 +35,8 @@ body {
     font-size: 20px
 }
 
-.fconteudo {
-    
+/* adaptação de borda, fonte, tamanho e espaçamento */
+.fconteudo {    
     margin-bottom: 48px;
     padding-top: 30px;
     border-top: 3.5px solid #231f20;
@@ -88,6 +92,7 @@ body {
     gap: 90px;
 }
 
+/*Padronização do rodapé em todas as páginas */
 .frodape {
     margin-bottom: 48px;
     padding-top: 30px;
